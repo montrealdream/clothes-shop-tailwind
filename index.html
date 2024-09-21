@@ -12,13 +12,29 @@
 
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script src="tailwind.config.js"></script>
+
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- title -->
     <title>Trang chủ</title>
 </head>
 <body>
-    
+    <!-- Top Header -->
+    <div class="py-[10px] bg-primary">
+        <div class="container mx-auto px-[16px]">
+            <div class="flex items-center">
+                <div class="flex-1 text-center text-white sm:text-[14px] text-[12px] sm:font-[500] font-[400]">
+                    Đăng ký để được giảm giá 20%. 
+                    <a href="#" class="underline">Đăng Ký Ngay</a>
+                </div>
+                <button class="text-white text-[14px] sm:block hidden">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Header -->
 </body>
 </html>
