@@ -23,7 +23,7 @@
 <body>
     <!-- Top Header -->
     <div class="py-[10px] bg-primary">
-        <div class="container mx-auto px-[16px]">
+        <div class="container mx-auto sm:px-[0px] px-[16px]">
             <div class="flex items-center">
                 <div class="flex-1 text-center text-white sm:text-[14px] text-[12px] sm:font-[500] font-[400]">
                     Đăng ký để được giảm giá 20%. 
@@ -36,5 +36,131 @@
         </div>
     </div>
     <!-- End Top Header -->
+
+    <!-- Header -->
+    <header class="md:py-[24px] py-[20px]">
+        <div class="container mx-auto sm:px-[16px] px-[16px]">
+            <div class="flex justify-between items-center md:gap-[40px] gap-[16px]">
+                <!-- Menu Mobile -->
+                <button class="md:hidden block sm:text-[22px] text-[20px]">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <!-- Logo -->
+                <div class="md:flex-none flex-1 text-primary sm:text-[32px] text-[25px] font-[700]">28.SHOP</div>
+                
+                <!-- Menu -->
+                <nav class="md:block hidden">
+                    <ul class="flex items-center gap-[24px]">
+                        <li>
+                            <a href="#" class="text-black text-[16px] font-[400]">Giới Thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black text-[16px] font-[400]">Sản Phẩm</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black text-[16px] font-[400]">Bài Viết</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black text-[16px] font-[400]">Liên Hệ</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Search -->
+                <form action="#" class="lg:flex hidden flex-1 bg-[#F0F0F0] py-[12px] px-[16px] rounded-[62px] flex items-center gap-[14px]">
+                    <button class="text-[#00000066]">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Tìm kiếm sản phẩm..." class="flex-1 flex bg-transparent text-[#00000066] text-[16px] font-[400] outline-none" >
+                </form>
+
+                <!-- Buttons -->
+                <div class="flex items-center md:gap-[14px] gap-[20px]">
+                    <!-- Search Mobile -->
+                    <a class="lg:hidden block sm:text-[22px] text-[20px]">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#" class="sm:text-[22px] text-[20px]">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <a href="#" class="sm:text-[22px] text-[20px]">
+                        <i class="fa-regular fa-circle-user"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Section 1 -->
+    <section class="bg-[#F2F0F1] pt-[45px]">
+        <div class="container mx-auto sm:px-[0px] px-[16px]">
+            <div class="flex lg:flex-nowrap flex-wrap gap-[50px]">
+                <!-- content -->    
+                <div class="lg:w-[48%] md:w-full">
+                    <h1 class="text-primary xl:text-[48px] sm:text-[38px] text-[28px] xl:font-[900] font-[800] uppercase mb-[10px]"
+                    >
+                        CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI
+                    </h1>
+                    
+                    <p class="text-secondary sm:text-[16px] text-[14px] text-[14px] font-[400] mb-[30px]">
+                        Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong cách của bạn.
+                    </p>
+                    
+                    <div class="bg-primary px-[54px] py-[16px] rounded-[62px] inline-flex items-center justify-center mb-[30px] sm:w-[200px] w-full">
+                        <a href="#" class="text-white text-[16px] font-[500] capitalize">
+                            Xem Ngay
+                        </a>
+                    </div>
+                    
+                    <div class="flex md:justify-normal justify-between md:px-[0px] sm:px-[20px] md:flex-nowrap flex-wrap">
+                        <div class="md:border-r border-[#0000001A] xl:pr-[32px] md:pr-[20px] xl:mr-[32px] md:mr-[20px] sm:w-auto w-[50%] text-center">
+                            <div class="text-primary xl:text-[40px] sm:text-[32px] text-[24px] font-[700]">
+                                200+
+                            </div>
+                            <div class="text-secondary sm:text-[16px] text-[12px] font-[400] capitalize whitespace-nowrap">
+                                Thương Hiệu
+                            </div>
+                        </div>
+                        <div class="md:border-r border-[#0000001A] xl:pr-[32px] md:pr-[20px] xl:mr-[32px] md:mr-[20px] sm:w-auto w-[50%] text-center">
+                            <div class="text-primary xl:text-[40px] sm:text-[32px] text-[24px] font-[700]">
+                                2,000+
+                            </div>
+                            <div class="text-secondary sm:text-[16px] text-[12px] font-[400] capitalize whitespace-nowrap">
+                                Sản Phẩm Chất Lượng
+                            </div>
+                        </div>
+                        <div class="sm:w-auto w-full text-center">
+                            <div class="text-primary xl:text-[40px] sm:text-[32px] text-[24px] font-[700]">
+                                30,000+
+                            </div>
+                            <div class="text-secondary sm:text-[16px] text-[12px] font-[400] capitalize whitespace-nowrap">
+                                Khách Hàng
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- image -->
+                <div class="lg:w-[48%] w-full relative">
+                    <img 
+                        src="assets/images/banner-1.jpg"
+                        class="w-full h-auto"
+                    >
+                    <img 
+                        src="assets/images/icon-1.svg"
+                        class="lg:w-[56px] w-[80px] h-auto absolute left-[20px] xl:top-[230px] lg:top-[170px] top-[250px] md:inline-block hidden"
+                    >
+                    <img 
+                        src="assets/images/icon-1.svg"
+                        class="w-[100px] h-auto absolute right-[0px] top-[25px] md:inline-block hidden"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section 1 -->
 </body>
 </html>
